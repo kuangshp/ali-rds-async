@@ -1,4 +1,4 @@
-## @ali-rds/async
+## ali-rds-async
 
 ## 申明
 
@@ -9,13 +9,13 @@
 - 1、安装模块
 
   ```shell
-  npm install @ali-rds/async
+  npm install ali-rds-async
   ```
 
 - 2、导包及连接数据库
 
   ```js
-  import AsyncAliRds from './lib/index';
+  import AsyncAliRds from 'ali-rds-async';
 
   const config = {
     host: 'your-rds-address.mysql.rds.aliyuncs.com',

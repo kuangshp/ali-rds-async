@@ -1,5 +1,5 @@
 {
-  "name": "@ali-rds/async",
+  "name": "ali-rds-async",
   "version": "0.0.1",
   "description": "使用co模块改造ali-rds连接数据库sdk成promise",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
     "async/await",
     "typescript"
   ],
-  "homepage": "https://github.com/kuangshp/-ali-rds-async",
+  "homepage": "https://github.com/kuangshp/ali-rds-async",
   "author": "kuangshp@126.com",
   "license": "MIT",
   "dependencies": {
