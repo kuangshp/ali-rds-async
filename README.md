@@ -61,3 +61,13 @@
     console.log('结果', r);
   })();
   ```
+## 主要实现的方法
+- [x] `query`使用原生`sql`语句
+- [x] `insert`插入语句
+- [x] `update`更新单条语句
+- [x] `updateRows`更新多条语句
+- [x] `get`获取一条数据
+- [x] `select`查询数据
+- [x] `delete`删除数据
+- [x] `count`计数
+- [x] `beginTransaction`事务
