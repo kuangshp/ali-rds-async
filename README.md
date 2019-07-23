@@ -16,6 +16,8 @@
 
   ```js
   import AsyncAliRds from 'ali-rds-async';
+  // or
+  const { AsyncAliRds } = require('ali-rds-async');
 
   const config = {
     host: 'your-rds-address.mysql.rds.aliyuncs.com',
@@ -61,7 +63,9 @@
     console.log('结果', r);
   })();
   ```
+
 ## 主要实现的方法
+
 - [x] `query`使用原生`sql`语句
 - [x] `insert`插入语句
 - [x] `update`更新单条语句
