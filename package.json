@@ -1,6 +1,6 @@
 {
   "name": "ali-rds-async",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "使用co模块改造ali-rds连接数据库sdk成promise",
   "main": "lib/index.js",
   "scripts": {
