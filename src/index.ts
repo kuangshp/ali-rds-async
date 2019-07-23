@@ -1,7 +1,7 @@
 const rds = require('ali-rds');
 const co = require('co');
 
-export default class AsyncAliRds {
+class AsyncAliRds {
   public client: any;
   constructor(config: { [propsName: string]: any }) {
     this.client = rds(config);
@@ -135,3 +135,6 @@ export default class AsyncAliRds {
     });
   }
 }
+
+export default AsyncAliRds;
+export { AsyncAliRds };

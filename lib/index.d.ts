@@ -1,4 +1,4 @@
-export default class AsyncAliRds {
+declare class AsyncAliRds {
     client: any;
     constructor(config: {
         [propsName: string]: any;
@@ -78,3 +78,5 @@ export default class AsyncAliRds {
         rollback: () => void;
     };
 }
+export default AsyncAliRds;
+export { AsyncAliRds };
